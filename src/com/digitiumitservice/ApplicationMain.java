@@ -15,6 +15,7 @@ public class ApplicationMain {
         
         while(true) {
 		        System.out.println("================");
+		        System.out.println("======");
 		        System.out.println("1. Add new lease agreements :");
 		        System.out.println("2. Search for agreements by city or owner name :");
 		        System.out.println("3. List all lease agreements sorted by expiry date :");

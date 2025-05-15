@@ -56,6 +56,7 @@ public class LeaseAgreementImpl implements LeaseAgreementService{
 	@Override
 	public List<LeaseAgreement> getLeaseExpiringInNextThreeMonth() throws NoAgreementListException {
 		if (leaseagrement.isEmpty())
+			
 			throw new NoAgreementListException("agreement list is empty");
 		
 		LocalDate currentDate = LocalDate.now();
